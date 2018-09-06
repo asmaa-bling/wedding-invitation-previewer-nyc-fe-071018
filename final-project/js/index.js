@@ -16,3 +16,4 @@ function invitePrint(fieldName, displayName) {
 
 invitePrint("lastName", "displayLastName");
 invitePrint("date", "displayDate");
+invitePrint("weddingLocation", "displayLocation");
