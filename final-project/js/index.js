@@ -15,7 +15,8 @@ function invitePrint(fieldName, displayName) {
 }
 
 function getInitials(nameOne, nameTwo){
-  
+  let firstName = document.getElementById(nameOne).value;
+  let secondName = document.getElementById(nameTwo).value;
 }
 
 invitePrint("lastName", "displayLastName");
