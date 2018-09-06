@@ -2,7 +2,7 @@ let currVal = "";
 
 document.getElementById("lastName").addEventListener("keydown", (event) => {
   let currKey = event.key;
-  if(currkey)
+  if(event.keyCode)
   currVal += currKey; 
   document.getElementById("displayLastName").innerHTML = currVal;
 });
