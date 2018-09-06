@@ -1,3 +1,3 @@
 document.getElementById("firstName").addEventListener("keydown", () => {
-  alert()
+  document.getElementById("displayFirstName")
 });
