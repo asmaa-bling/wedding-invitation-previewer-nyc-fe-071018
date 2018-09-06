@@ -1,5 +1,7 @@
 document.getElementById("lastName").addEventListener("keydown", (event) => {
-  const eventKey = event.key;
-  let fullInput = 
+  let currentVal = event.key;
+  cur += eventKey; 
   document.getElementById("displayLastName").innerHTML = eventKey;
+  
+  
 });
