@@ -14,9 +14,10 @@ function invitePrint(fieldName, displayName) {
   });
 }
 
-function printName(inputField, displayName) {
-  const name = document.getElementById(inputField).value;
-  document.getElementById(displayName).innerHTML = name;
+function printName(inputFieldOne, inputFieldTwo, displayName) {
+  const nameOne = document.getElementById(inputFieldOne).value;
+  const nameTwo = document.getElementById(inputFieldTwo).value;
+  document.getElementById(displayName).innerHTML = `${nameOne} & ${nameTwo}`;
 }
 
 function getInitials(nameOne, nameTwo, displayName){
