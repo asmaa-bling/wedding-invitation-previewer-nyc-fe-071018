@@ -15,4 +15,4 @@ function invitePrint(fieldName, displayName) {
   });
 }
 
-invitePrint(firstName, displayName);
+invitePrint("firstName", "displayName");
