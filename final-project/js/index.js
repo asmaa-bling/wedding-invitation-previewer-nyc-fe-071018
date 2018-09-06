@@ -16,4 +16,4 @@ function invitePrint(fieldName, displayName) {
 }
 
 invitePrint("lastName", "displayLastName");
-invitePrint("", "displayLastName");
+invitePrint("date", "displayDate");
