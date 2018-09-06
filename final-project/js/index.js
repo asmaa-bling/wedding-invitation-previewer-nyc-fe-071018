@@ -1,6 +1,6 @@
 let currVal = "";
 
-function invitePrint(fieldName) {
+function invitePrint(fieldName, displayName) {
   document.getElementById(fieldName).addEventListener("keydown", (event) => {
     let currKey = event.key;
     if(event.keyCode === 9 || event.keyCode === 13 || event.keyCode === 16){
@@ -11,8 +11,8 @@ function invitePrint(fieldName) {
       currVal += currKey;
     }
   
-    document.getElementById("displayLastName").innerHTML = currVal;
+    document.getElementById(displayName).innerHTML = currVal;
   });
 }
 
-invitePrint();
+invitePrint(firstName);
