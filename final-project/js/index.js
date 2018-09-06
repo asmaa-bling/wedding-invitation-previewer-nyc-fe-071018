@@ -9,6 +9,6 @@ document.getElementById("lastName").addEventListener("keydown", (event) => {
   } else {
     currVal += currKey;
   }
-  
+
   document.getElementById("displayLastName").innerHTML = currVal;
 });
