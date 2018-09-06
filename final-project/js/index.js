@@ -1,1 +1,1 @@
-document.getElementById("firstName")
+document.getElementById("firstName").addEventListener
