@@ -1,5 +1,3 @@
-
-
 function invitePrint(fieldName, displayName) {
   let currVal = "";
   document.getElementById(fieldName).addEventListener("keydown", (event) => {
