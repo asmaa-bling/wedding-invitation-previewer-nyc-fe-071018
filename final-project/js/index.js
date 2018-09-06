@@ -6,7 +6,7 @@ document.getElementById("lastName").addEventListener("keydown", (event) => {
     return false;
   }
   
-  if (event.keyCode === 8){\
+  if (event.keyCode === 8){
     currKey = currKey.slice(0, -1);
   }
   currVal += currKey; 
