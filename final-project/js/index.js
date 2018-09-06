@@ -7,7 +7,7 @@ document.getElementById("lastName").addEventListener("keydown", (event) => {
   }
   
   if (event.keyCode === 8){\
-    currKey = 
+    currKey = currKey.slice(0, -1);
   }
   currVal += currKey; 
   document.getElementById("displayLastName").innerHTML = currVal;
