@@ -1,6 +1,7 @@
-let currVal = "";
+
 
 function invitePrint(fieldName, displayName) {
+  let currVal = "";
   document.getElementById(fieldName).addEventListener("keydown", (event) => {
     let currKey = event.key;
     if(event.keyCode === 9 || event.keyCode === 13 || event.keyCode === 16){
