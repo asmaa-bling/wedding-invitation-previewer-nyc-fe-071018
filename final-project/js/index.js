@@ -1,5 +1,6 @@
 document.getElementById("lastName").addEventListener("keydown", (event) => {
-  let currentVal = event.key;
-  currentVal += eventKey; 
+  let currKey = event.key;
+  let currVal = "";
+  currVal += currKey; 
   document.getElementById("displayLastName").innerHTML = currentVal;
 });
