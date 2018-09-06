@@ -14,8 +14,9 @@ function invitePrint(fieldName, displayName) {
   });
 }
 
-function printName() {
-  
+function printName(inputField, displayName) {
+  const name = document.getElementById(inputField).value;
+  document.getElementById(displayName).innerHTML = name;
 }
 
 function getInitials(nameOne, nameTwo, displayName){
