@@ -14,7 +14,9 @@ function invitePrint(fieldName, displayName) {
   });
 }
 
-function 
+function getInitials(nameOne, nameTwo){
+  
+}
 
 invitePrint("lastName", "displayLastName");
 invitePrint("date", "displayDate");
