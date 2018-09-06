@@ -22,5 +22,8 @@
 
 .right {
   background-color: green;
+  float: right;
+  width: 25%;
+  margin-top: 6px;
 }
 
