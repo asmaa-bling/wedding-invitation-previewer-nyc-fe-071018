@@ -26,7 +26,7 @@ function getInitials(nameOne, nameTwo, displayName){
   document.getElementById(displayName).innerHTML = `${firstName.chartAt(0)} & ${secondName.chartAt(0)}`;
 }
 
-// getInitials("firstName", "secondName", "displayInitials");
+getInitials("firstName", "secondName", "displayInitials");
 printName("firstName", "secondName", "displayCouplesName");
 invitePrint("lastName", "displayLastName");
 invitePrint("date", "displayDate");
