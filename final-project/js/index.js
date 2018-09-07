@@ -31,3 +31,4 @@ invitePrint("date", "displayDate");
 invitePrint("weddingLocation", "displayLocation");
 getInitials("firstName", "secondName", "displayInitials");
 printName("firstName", "secondName", "displayCouplesName");
+
