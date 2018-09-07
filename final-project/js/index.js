@@ -19,15 +19,18 @@ function printName(inputFieldOne, inputFieldTwo, displayName) {
     document.getElementById(inputFieldOne).addEventListener("keyup", (event) => {
       firstName += event.key;
       console.log(firstName);
+      document.getElementById("displayCouplesName").innerHTML = firstName + " & " + secondName;
+
     });
     
     let secondName = '';
     document.getElementById(inputFieldTwo).addEventListener("keyup", (event) => {
       secondName += event.key;
       console.log(secondName);
+      document.getElementById("displayCouplesName").innerHTML = firstName + " & " + secondName;
+
     });
     
-    document.getElementById("displayCouplesName").innerHTML = firstName + " & " + secondName;
 }
 
 function getInitials(nameOne, nameTwo, displayName){
