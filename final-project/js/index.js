@@ -16,13 +16,13 @@ function invitePrint(fieldName, displayName) {
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
     let firstName = '';
-    document.getElementById(inputFieldOne).addEventListener("keydown", (event) => {
+    document.getElementById(inputFieldOne).addEventListener("keyup", (event) => {
       firstName += event.key;
       console.log(firstName);
     });
     
     let secondName = '';
-    document.getElementById(inputFieldTwo).addEventListener("keydown", (event) => {
+    document.getElementById(inputFieldTwo).addEventListener("keyup", (event) => {
       secondName += event.key;
       console.log(secondName);
     });
