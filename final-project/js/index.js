@@ -9,13 +9,14 @@ function invitePrint(fieldName, displayName) {
     } else {
       currVal += currKey;
     }
-  
+    
     document.getElementById(displayName).innerHTML = currVal;
+    return currVal;
   });
 }
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
-  const nameOne = document.getElementById(inputFieldOne).value;
+  const nameOne = invitePrint(inputFieldOne) //document.getElementById(inputFieldOne).value;
   const nameTwo = document.getElementById(inputFieldTwo).value;
   document.getElementById(displayName).innerHTML = `${nameOne} & ${nameTwo}`;
 }
