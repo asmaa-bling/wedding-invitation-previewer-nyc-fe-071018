@@ -15,20 +15,6 @@ function invitePrint(fieldName, displayName) {
 }
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
-  // let currVal = "";
-  // document.getElementById(inputFieldOne).addEventListener("keydown", (event) => {
-  //     let currKey = event.key;
-  //     if(event.keyCode === 9 || event.keyCode === 13 || event.keyCode === 16){
-  //       return false;
-  //     } else if (event.keyCode === 8){
-  //       currVal = currVal.slice(0, -1);
-  //     } else {
-  //       currVal += currKey;
-  //     }
-      
-  //     document.getElementById(displayName).innerHTML = currVal;
-  //   });
-    
     const nameOne = invitePrint(inputFieldOne); //document.getElementById(inputFieldOne).value;
     // const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
     document.getElementById(displayName).innerHTML = `${currVal} & ${nameTwo}`;
