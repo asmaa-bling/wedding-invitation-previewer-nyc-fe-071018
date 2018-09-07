@@ -27,7 +27,7 @@ function getInitials(nameOne, nameTwo, displayName){
 }
 
 // getInitials("firstName", "secondName", "displayInitials");
-// printName("firstName", "secondName", "displayCouplesName");
+printName("firstName", "secondName", "displayCouplesName");
 invitePrint("lastName", "displayLastName");
 invitePrint("date", "displayDate");
 invitePrint("weddingLocation", "displayLocation");
