@@ -27,7 +27,7 @@ function printName(inputFieldOne, inputFieldTwo, displayName) {
       console.log(secondName);
     });
     
-    document.getElementById(displayName).innerHTML = `${firstName} & ${secondName}`;
+    document.getElementById(displayName).innerHTML = firstName + " & " + secondName;
 }
 
 function getInitials(nameOne, nameTwo, displayName){
