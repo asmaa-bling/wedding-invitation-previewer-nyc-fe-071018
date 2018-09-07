@@ -15,6 +15,7 @@ function invitePrint(fieldName, displayName) {
 }
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
+    document.getElementById(inputFieldOne).addEventListener("keydown", )
     const nameOne = invitePrint(inputFieldOne); //document.getElementById(inputFieldOne).value;
     // const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
     document.getElementById(displayName).innerHTML = `${currVal} & ${nameTwo}`;
