@@ -16,8 +16,8 @@ function invitePrint(fieldName, displayName) {
 }
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
-  const nameOne = invitePrint(inputFieldOne) //document.getElementById(inputFieldOne).value;
-  const nameTwo = document.getElementById(inputFieldTwo).value;
+  const nameOne = invitePrint(inputFieldOne); //document.getElementById(inputFieldOne).value;
+  const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
   document.getElementById(displayName).innerHTML = `${nameOne} & ${nameTwo}`;
 }
 
