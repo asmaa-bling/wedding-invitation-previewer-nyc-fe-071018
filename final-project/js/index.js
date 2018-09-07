@@ -11,7 +11,6 @@ function invitePrint(fieldName, displayName) {
     }
     
     document.getElementById(displayName).innerHTML = currVal;
-    return currVal;
   });
 }
 
