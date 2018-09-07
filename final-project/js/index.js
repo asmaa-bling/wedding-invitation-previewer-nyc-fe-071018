@@ -18,6 +18,7 @@ function printName(inputFieldOne, inputFieldTwo, displayName) {
     let firstName = '';
     document.getElementById(inputFieldOne).addEventListener("keydown", (event) => {
       firstName += event.key;
+      console.log(firstName);
     });
     
     let secondName = '';
