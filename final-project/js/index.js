@@ -15,10 +15,17 @@ function invitePrint(fieldName, displayName) {
 }
 
 function printName(inputFieldOne, inputFieldTwo, displayName) {
-    document.getElementById(inputFieldOne).addEventListener("keydown", )
-    const nameOne = invitePrint(inputFieldOne); //document.getElementById(inputFieldOne).value;
-    // const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
-    document.getElementById(displayName).innerHTML = `${currVal} & ${nameTwo}`;
+    let firstName = '';
+    document.getElementById(inputFieldOne).addEventListener("keydown", (event) => {
+      firstName += event.key;
+    });
+    
+    let secondName = '';
+    document.getElementById(inputFieldTwo).addEventListener("keydown", (event) => {
+      secondName += event.key;
+    });
+    
+    document.getElementById(displayName).innerHTML = `${firstName} & ${secondName}`;
 }
 
 function getInitials(nameOne, nameTwo, displayName){
@@ -27,7 +34,7 @@ function getInitials(nameOne, nameTwo, displayName){
   document.getElementById(displayName).innerHTML = `${firstName.charAt(0)} & ${secondName.charAt(0)}`;
 }
 
-getInitials("firstName", "secondName", "displayInitials");
+// getInitials("firstName", "secondName", "displayInitials");
 printName("firstName", "secondName", "displayCouplesName");
 invitePrint("lastName", "displayLastName");
 invitePrint("date", "displayDate");
