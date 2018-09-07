@@ -30,7 +30,7 @@ function printName(inputFieldOne, inputFieldTwo, displayName) {
   //   });
     
     const nameOne = invitePrint(inputFieldOne); //document.getElementById(inputFieldOne).value;
-    const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
+    // const nameTwo = invitePrint(inputFieldTwo); //document.getElementById(inputFieldTwo).value;
     document.getElementById(displayName).innerHTML = `${currVal} & ${nameTwo}`;
 }
 
